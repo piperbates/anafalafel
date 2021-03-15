@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Allergies</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+   
+      </header>
+
+      <main>
+        <form id="recipe-input">
+          <input type="text" placeholder="search" id="search" />
+          <label for="id">Search recipes</label>
+          <fieldset>
+            Dietry Requirements:
+            <input type="checkbox" id="vegan" />
+            <label for="vegan">Vegan</label>
+            <input type="checkbox" id="vegetarian" />
+            <label for="vegetarian">Vegetarian</label>
+            <input type="checkbox" id="glutenfree" />
+            <label for="glutenfree">Gluten free</label>
+          </fieldset>
+          <fieldset>
+            Allergies:
+            <input type="checkbox" id="nuts" />
+            <label for="nuts">Nuts</label>
+            <input type="checkbox" id="eggs" />
+            <label for="eggs">Eggs</label>
+            <input type="checkbox" id="milk" />
+            <label for="milk">Milk</label>
+          </fieldset>
+          <input type="submit" id="submit-button" />
+        </form>
+
+        <div id="recipe-box" class="hidden">
+          <h1>Results</h1>
+          <ul id="recipe-list"></ul>
+        </div>
+
+        <div id="recipe-selection" class="hidden">
+          <p id="back-button">Back to search</p>
+          <h1 id="recipe-select-title">Title</h1>
+
+          <div id="recipe-selection-image-wrapper">
+            <img src="" alt="image" id="recipe-select-img" />
+
+            <h5>Ingredients</h5>
+            <ul id="recipe-selection-ingredients-list"></ul>
+          </div>
+
+          <h5>Method</h5>
+          <ol id="recipe-selection-method"></ol>
+        </div>
+      </main>
+
+      <footer></footer>
+    </div>
+  </body>
+  <script src="dom.js"></script>
+  <script src="config.js"></script>
+  <script src="functions.js"></script>
+  <script src="script.js"></script>
+  <script src="display.js"></script>
+</html>

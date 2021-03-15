@@ -1,0 +1,56 @@
+.search-res-img {
+    max-width: 500px;
+}
+
+
+.recBoxInfo {
+    border: 1px solid gray;
+    margin: 4px;
+    margin: auto;
+}
+
+#recipe-list, .recipe-list-item li, #recipe-list h2 {
+    padding: 0px; margin: 0px;
+}
+#recipe-list-item li {
+    list-style: none;
+}
+
+
+.ingredient-box, .ingredient-box h4 {
+    padding: 0px; margin: 0px;
+    background-color: bisque;
+}
+
+.ingredient-box li {
+    list-style-type: circle;
+    padding: 3px;
+
+}
+
+.recipe-box-full {
+    min-height: 200px;
+    max-height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#recipe-selection {
+}
+
+.hidden {
+    display: none;
+    
+}
+
+.search-time-list {
+    padding: 0px; margin: 0px;
+}
+
+.search-time-list li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 40px;
+
+}
