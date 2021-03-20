@@ -1,4 +1,4 @@
-#Anafalafel
+# Anafalafel
 ## A receipe app for allergy sufferers
 
 This is a recipe app built using the Edamam API, where users can filter out ingredients or select dietary requirements and search from thousands of recipes. 
